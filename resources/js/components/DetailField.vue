@@ -1,5 +1,5 @@
 <template>
-  <PanelItem :index="index" />
+  <PanelItem :index="index" :field="field"/>
 
   <div id="map" :style="'height:' + this.mapHeight"></div>
 
@@ -109,11 +109,14 @@ export default {
         };
     },
     mounted() {
-        $Scriptjs(
-            "https://maps.googleapis.com/maps/api/js?key=" +
-                this.field.googleApiKey +
-                "&loading=async"
-        );
+
+        if (this.visibleYesNoGoogle) {
+          $Scriptjs(
+              "https://maps.googleapis.com/maps/api/js?key=" +
+                  this.field.googleApiKey +
+                  "&loading=async"
+          );
+        }
 
         var map = L.map("map", {
             zoomControl: true,
