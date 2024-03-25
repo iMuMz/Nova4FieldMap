@@ -1,7 +1,7 @@
 ![](https://img.shields.io/github/stars/iMuMz/Nova4FieldMap?&style=flat-square)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/iMuMz/Nova4FieldMap?color=yellow&style=flat-square)
 ![Packagist](https://img.shields.io/packagist/dt/imumz/nova-4-field-map?color=green&logo=testing&style=flat-square)
-# NovaLeafletMap
+# Nova4FieldMap
 Custom [Laravel Nova 4](https://nova.laravel.com/) map detail field using [Leaflet](https://leafletjs.com/). Supports Google Maps, marker clustering, map height, latitude and longitude coordinates, GeoJSON, marker popup and custom marker icons.
 
 ![image](https://github.com/iMuMz/Nova4FieldMap/assets/22936672/a2ae9819-9115-4a05-8408-92c98edbf010)
