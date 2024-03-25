@@ -4,7 +4,7 @@
 # Nova4FieldMap
 Custom [Laravel Nova 4](https://nova.laravel.com/) map detail field using [Leaflet](https://leafletjs.com/). Supports Google Maps, marker clustering, map height, latitude and longitude coordinates, GeoJSON, marker popup and custom marker icons.
 
-![image](images/dashboard-example.png)
+![image](images/detail-view-example.png)
 
 ### Installation
 
@@ -81,5 +81,5 @@ You can pass additional parameters to set the icon size and anchor
 ```
 ->markerIcon('/images/marker-icon.png',[100,100],[50,50])
 ```
-![image](images/dashboard-custom-markers-example.png)
+![image](images/custom-markers-example.png)
 
