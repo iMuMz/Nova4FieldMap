@@ -42,6 +42,7 @@ export default {
             Icon.Default.mergeOptions({
                 iconRetinaUrl: base64img,
                 iconUrl: base64img,
+                iconSize: [25,41],
                 shadowUrl: base64ShadowUrl,
             });
         } else {
