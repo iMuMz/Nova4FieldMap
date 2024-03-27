@@ -20,19 +20,13 @@ class Nova4FieldMap extends Field
             'height' => $height
         ]);
     }
-    public function zoom($zoom){
-        return $this->withMeta([
-            'zoom' => $zoom
-        ]);
-    }
-    public function geoJson($geoJson){
 
+    public function geoJson($geoJson){
         return $this->withMeta([
             'geoJson' => $geoJson
         ]);
     }
     public function markerIcon($markerIcon,$markerIconSize = null,$markerIconAnchor = null){
-
         return $this->withMeta([
             'markerIcon' => $markerIcon,
             'markerIconSize' => $markerIconSize,
@@ -58,14 +52,12 @@ class Nova4FieldMap extends Field
     }
 
     public function googleApiKey($googleApiKey) {
-
         return $this->withMeta([
             'googleApiKey' => $googleApiKey
         ]);
     }
 
     public function googleMapType($googleMapType) {
-
         return $this->withMeta([
             'googleMapType' => $googleMapType
         ]);
